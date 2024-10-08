@@ -10,9 +10,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # digital_botz client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("API_ID", "26579601")
+    API_HASH = os.environ.get("API_HASH", "5b811e9e89adfe6c636d3328b247779d")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5402380823:AAHOkeFHcWTyPvt8NGItK8ScoxlfX3gfJq8") 
 
     # premium account string session required 😢 
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
@@ -23,7 +23,7 @@ class Config(object):
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6705898491').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6838589973').split()]
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123429361"))
 
     #force subs
