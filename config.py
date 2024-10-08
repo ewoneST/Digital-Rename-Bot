@@ -15,11 +15,11 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5402380823:AAHOkeFHcWTyPvt8NGItK8ScoxlfX3gfJq8") 
 
     # premium account string session required 😢 
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "BQDUwuQAsDqGwmts9lUZSORVVum-K9XDUj394KGc2Ca0YagbET48ixgrDkIFXXm8R1tzYTD0Up-1eBBTwLsfcBuBj6kT2ssnJHT3MoFlQuujWyly5ydZc8aVkadL2Rtrt91d7_HGLkyYjJl-22wNpMYp08BktHdrZdFD6tqXT1T-9G3aQ6LXWOsIB6YL1yRd_fw00tQwdbcvCppS5BuFQ0x66Cld7R17Ms2KKp5VKvYwIATRwTIpoNLEnGkG5_gRj8FlfeO14LUAz8Uo5Y5x3QkB5wovNsAHVc96qDSQTCGkell-DhF1NqNZ73aN8YBwvrlwpXFirzu1B5A47DLgP86mufJCEwAAAAGktfzCAA")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","ST")     
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://second2:second2@cluster0.pbi0w9t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
